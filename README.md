@@ -1,5 +1,5 @@
 # Reddit Word Tracker
-This project is a data pipeline built in AWS which analyzes the frequency of all words used on specific subreddits, in my case financial subreddits and stores them in a database which can be easily queried to determine which words are being used frequently on specific days and over time
+This project is a data pipeline built in AWS which analyzes the frequency of all words used on specific subreddits, in my case financial subreddits and stores them in a database which can be easily queried to determine which words are being used frequently on specific days and over time.
   
   
 # The Architecture
