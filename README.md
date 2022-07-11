@@ -8,4 +8,4 @@ A Lambda function trigered by a daily time based cloudwatch event is used to ret
   
     
 # Future Improvements
-In the future, I think a useful addition to the project would be replace the lambda function which cleans and analyzes the text data with a spark job executed on and EMR cluster. While with the current volume of data I am processing I dont think this is necessary, however if i were using a larger data source it would become more cost effective than processing it on the single EC2 instance that Lambda functions use.
+In the future, I think a useful addition to the project would be replace the lambda function which cleans and analyzes the text data with a spark job executed on an EMR cluster. With the current volume of data I am processing I dont think this is necessary, however if i were using a larger data source it would become more cost effective and less prone to failures than processing it on the single EC2 instance that Lambda functions use.
